@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './styles/App.css';
 
 
 const arreglo = 'https://gist.githubusercontent.com/gejocad/f4914ce6eb4412909e6ebf8e61d6729f/raw/9cee3f9e72a911f3e69d58713821d349f343491b/frases.json';
@@ -61,8 +61,8 @@ class Frases extends Component {
               )
             }
           <div className="d-flex justify-content-between">
-            <a className="btn btn-primary" 
-              target="_blank" href={tweetURL} id="tweet-quote">
+            <a className="btn btn-primary"
+              target="blank" href={tweetURL} id="tweet-quote">
               <i className="fab fa-twitter"></i> Tweetear
             </a>
             
